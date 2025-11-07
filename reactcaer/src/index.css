@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  margin: 0;
+  padding:0;
+box-sizing: border-box;
+
+color: #fbf8f8;
+
+
+}
+
+html,
+body{
+  height: 100%;
+  width : 100%;
+  
+}
+body{
+  background: rgb(14, 13, 13);
+}
+button{
+  background-color: rgb(92, 158, 89);
+  padding: 20px 30px;
+  border-radius: 10px;
+  margin:10px 30px ;
+  font-size: 40px;
+}
