@@ -1,0 +1,44 @@
+*{
+    color: rgb(247, 244, 244);
+}
+
+html,
+body{
+    background-color: rgb(10, 10, 10);
+}
+.parent{
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card{
+    width: 300px;
+    background-color: rgb(120, 108, 94);
+    padding: 20px ;
+    margin: 20px 15px;
+    border: 1px solid white;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.card img{
+    height: 180px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%
+    
+}
+
+.card p {
+    margin: 20px 0;
+}
+
+.card button{
+    height: 50px;
+    width: 100px;
+    background-color: rgb(117, 158, 158);
+    border-radius: 5px;
+}
+
+
